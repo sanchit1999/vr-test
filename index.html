@@ -1,0 +1,19 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+<meta http-equiv="origin-trial" data-feature="WebVR (For Chrome M59+)" data-expires="2017-07-28" content="ArFv1ZeTwzkhjNE00uAE+XtiQB41fwqG/TqlFMLrepd9sforQSvQE/tgfIbUMYNuNre4QR1k4/z8xp2mV3dbhwwAAABeeyJvcmlnaW4iOiJodHRwczovL2FmcmFtZS5pbzo0NDMiLCJmZWF0dXJlIjoiV2ViVlIxLjEiLCJleHBpcnkiOjE1MDEyMTcwMDIsImlzU3ViZG9tYWluIjp0cnVlfQ==" />
+<meta charset="utf-8" />
+<title>Hello, World! • A-Frame</title>
+<meta name="description" content="Hello, World! • A-Frame" />
+<script src="../../../dist/aframe-master.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Mono" media="all" /><script src="https://unpkg.com/aframe-environment-component@^1.0.x/dist/aframe-environment-component.min.js" data-component-description="Infinite environments for your A-Frame VR scene in just one file." data-component-names="environment" data-component-url="https://npmjs.com/package/aframe-environment-component" data-package-name="aframe-environment-component"></script><script src="https://unpkg.com/aframe-rain@^1.0.2/build/aframe-rain.min.js" data-component-description="A-Frame rain component" data-component-names="rain" data-component-url="https://npmjs.com/package/aframe-rain" data-package-name="aframe-rain"></script></head>
+<body class="a-body ">
+<a-scene class="fullscreen" canvas="" inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui="" fog="color:#c2c17e;far:83.99999999999999">
+<a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9" material="" geometry=""></a-box>
+<a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E" material="" geometry=""></a-sphere>
+<a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D" material="" geometry=""></a-cylinder>
+
+<a-sky color="#ECECEC" material="" geometry=""></a-sky>
+<a-entity environment="seed:8;skyType:gradient;skyColor:#24b59f;horizonColor:#eff9b7;lightPosition:-1.2 0.88 -0.55;fog:0.8;ground:noise;groundYScale:4.18;groundTexture:squares;groundColor:#937a24;groundColor2:#987d2e;dressing:trees;dressingAmount:500;dressingColor:#888b1d;dressingScale:1;dressingVariance:10 10 10;gridColor:#c5a543;preset:forest" rain=""><a-entity position="0 50 0" light="groundColor:#937a24;intensity:0.6;color:#91dacf;type:hemisphere"></a-entity><a-entity position="-1.2 0.88 -0.55" light="shadowCameraLeft:-10;shadowCameraBottom:-10;shadowCameraRight:10;shadowCameraTop:10;intensity:0.6"></a-entity><a-entity rotation="-90 0 0" scale="1 1 4.18" shadow="cast:false;receive:false"></a-entity><a-entity></a-entity><a-sky radius="200" geometry="" theta-length="110" material="shader:gradientshader;topColor:#24b59f;bottomColor:#eff9b7;npot:false"></a-sky><a-entity id="stars" visible="false"></a-entity></a-entity><a-entity sound="src:http://soundbible.com/grab.php?id=2011&amp;type=mp3;loop:true;autoplay:true"></a-entity></a-scene>
+
+
+<textarea readonly="" style="font-size: 12pt; border: 0px; padding: 0px; margin: 0px; position: absolute; left: -9999px; top: 0px;"></textarea></body></html>
